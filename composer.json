@@ -1,0 +1,25 @@
+{
+	"name": "mpeters/bbc-editor-bundle",
+	"type": "symfony-bundle",
+	"description": "A lightweight editor for BBCode styled markup.",
+	"keywords": ["bbcode", "markup", "nbbc", "editor"],
+	"homepage": "",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Mark Peters",
+			"homepage": "http://www.skeeter-net.net"
+		}
+	],
+	"require": {
+        "php": ">=5.3.0",
+        "symfony/framework-bundle": ">=2.0,<2.3-dev"
+	},
+	"support": {
+		"source": ""
+	},
+    "autoload":     {
+        "psr-0": { "MPeters\\BBCEditorBundle": "" }
+    },
+    "target-dir": "MPeters/BBCEditorBundle"
+}
