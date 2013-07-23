@@ -409,7 +409,8 @@
 #Kunena #kpostmessage tr.krow2 td.kcol-ktopicicons table{width:95%}
 #Kunena #kpostmessage tr.krow2 td.kcol-ktopicicons td{border:1px solid;width:99%}
 #Kunena #kpostmessage tr.krow1 .kpostbuttonset td.kposthint{border:1px solid;padding:2px 5px}
-#Kunena table#kpostmessage .kposthint .kinputbox{border:0 solid;width:99%}
+/*#Kunena table#kpostmessage .kposthint .kinputbox{border:0 solid;width:99%}*/
+#Kunena table#kpostmessage .kposthint .kinputbox{border:1px solid;padding:2px;width:98%;}
 #Kunena .kpostbuttonset{width:95%;margin:2px;border:1px solid}
 #Kunena tr.krow1 .kpostbuttons{border:1px solid}
 #Kunena table#kpostmessage .ktxtarea{overflow:auto;height:200px;border:1px solid}
@@ -776,7 +777,7 @@ div#kprofile-stats ul li span.krank-admin{display:block;background:url("../image
 #Kunena form#jumpto input.kbutton{margin:0}
 #Kunena table.klist-top td.klist-markallcatsread input.kbutton{vertical-align:middle;margin:5px}
 #Kunena span#kprofilebox-status{font-weight:bold;display:block;height:14px;width:15px}
-#Kunena #kprofilebox-toggle{display:block;height:15px;width:15px;margin-right:1px;margin-top:- 14px;border:1px solid}
+#Kunena #kprofilebox-toggle{display:block;height:15px;width:15px;margin-right:1px;margin-top:-14px;border:1px solid}
 #Kunena a.close{display:block;background:url("../images/shrink.gif") no-repeat;height:15px;width:15px}
 #Kunena a.open{display:block;background:url("../images/expand.gif") no-repeat;height:15px;width:15px}
 #Kunena .kcredits{text-align:center}

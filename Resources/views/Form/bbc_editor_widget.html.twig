@@ -2,7 +2,7 @@
     {% if enable %}
 
         <div id="Kunena">
-            <table class="kpostbuttonset">
+            <table id="kpostmessage" class="kpostbuttonset">
             <tbody>
             <tr>
                 <td class="kpostbuttons">
@@ -196,6 +196,7 @@
             </tr>
             <tr>
                 <td class="kposthint"><input type="text" name="helpbox" id="helpbox" size="45" class="kinputbox" disabled="disabled" maxlength="100" value="bbCode Help - Tip: bbCode can be used on selected text!"></td>
+                {#<td class="kposthint"><input type="text" name="helpbox" id="helpbox" class="kinputbox" disabled="disabled" value="bbCode Help - Tip: bbCode can be used on selected text!"></td>#}
             </tr>
             <tr id="kpost-message" class="krow1">
                 <td class="kcol-last kcol-editor-field">
@@ -206,6 +207,36 @@
                     <div id="kbbcode-preview" style="display: none;"></div>
                 </td>
             </tr>
+<!--attachments-->
+            <tr id="kpost-attachments" class="krow1">
+                {#<td class="kcol-first">#}
+                    {#<strong>Attachments</strong>#}
+                {#</td>#}
+                <td class="kcol-mid">
+                    {#<div class="kattachment" style="" id="kattachment1">#}
+                        {#<span class="kattachment-id-container">1. </span>#}
+
+                        {#<input class="kfile-input-textbox" type="text" readonly="readonly">#}
+                        {#<div class="kfile-hide hasTip" title="">#}
+                            {#<input type="button" value="Add File" class="kfile-input-button kbutton">#}
+                            {#<input class="kfile-input" name="kattachment1" type="file">#}
+                        {#</div>#}
+                        {#<a href="#" class="kattachment-remove kbutton" style="display: none">Remove File</a>#}
+                        {#<a href="#" class="kattachment-insert kbutton" style="display: none">Insert</a>#}
+                    {#</div>#}
+                    <div id="kattachment-id" class="kattachment" style="display: none;">
+                        <span class="kattachment-id-container"></span>
+
+                        <input class="kfile-input-textbox" type="text" readonly="readonly">
+                        <div class="kfile-hide hasTip" title="">
+                            <input type="button" value="Add File" class="kfile-input-button kbutton">
+                            <input id="kupload" class="kfile-input" name="kattachment" type="file">
+                        </div>
+                        <a href="#" class="kattachment-remove kbutton" style="display: none">Remove File</a>
+                        <a href="#" class="kattachment-insert kbutton" style="display: none">Insert</a>
+                    </div>                </td>
+            </tr>
+<!--attachments-->
             </tbody>
             </table>
         </div>
